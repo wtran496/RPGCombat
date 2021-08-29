@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f464a8419fc2a4c8f98ab727a052d9, type: 3}
+  m_Name: Progression
+  m_EditorClassIdentifier: 
+  characterClasses:
+  - characterClass: 0
+    stats:
+    - stat: 0
+      levels:
+      - 500
+      - 550
+      - 600
+      - 750
+      - 800
+      - 850
+      - 900
+      - 950
+      - 1000
+      - 1050
+      - 1100
+      - 1150
+      - 1200
+      - 1250
+      - 1300
+      - 1350
+      - 1400
+      - 1450
+      - 1500
+      - 1550
+    - stat: 3
+      levels:
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+    - stat: 2
+      levels:
+      - 100
+      - 200
+      - 300
+      - 400
+      - 500
+      - 600
+      - 700
+      - 800
+      - 900
+      - 1000
+      - 1100
+      - 1200
+      - 1300
+      - 1400
+      - 1500
+      - 1600
+      - 1700
+      - 1800
+      - 1900
+      - 2000
+  - characterClass: 1
+    stats:
+    - stat: 0
+      levels:
+      - 125
+      - 300
+      - 400
+      - 500
+    - stat: 3
+      levels:
+      - 20
+      - 30
+      - 40
+      - 50
+    - stat: 1
+      levels:
+      - 25
+      - 35
+      - 45
+      - 55
+  - characterClass: 2
+    stats:
+    - stat: 0
+      levels:
+      - 100
+      - 200
+      - 300
+      - 400
+    - stat: 3
+      levels:
+      - 50
+      - 100
+      - 150
+      - 200
+    - stat: 1
+      levels:
+      - 75
+      - 125
+      - 175
+      - 225
+  - characterClass: 3
+    stats:
+    - stat: 0
+      levels:
+      - 150
+      - 250
+      - 350
+      - 450
+    - stat: 3
+      levels:
+      - 30
+      - 50
+      - 70
+      - 100
+    - stat: 1
+      levels:
+      - 30
+      - 40
+      - 50
+      - 60

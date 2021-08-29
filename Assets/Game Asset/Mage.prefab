@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6242365772956575573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5346658321847903980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d6b4ded3f97e84bbeb4e2eb870b4cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  maxSpeed: 6
+  maxNavPathLength: 40
+--- !u!1001 &1018152471558451884
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4454950851351949896, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: characterClass
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715904, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_Name
+      value: Mage
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715906, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 752d928a5e50acf44b81c90a1fdea53e, type: 2}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905001829991715916, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300189887608797242, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eb83b2b658dfc194e8b26c4421e3c748, type: 2}
+    - target: {fileID: 6784315137103196503, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 9f18034afc5477e40ba0191531cd826e,
+        type: 2}
+    - target: {fileID: 6784315137103196503, guid: c68219310fb89564686b7abdc1038482,
+        type: 3}
+      propertyPath: timeBetweenAttacks
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c68219310fb89564686b7abdc1038482, type: 3}
+--- !u!1 &5346658321847903980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4905001829991715904, guid: c68219310fb89564686b7abdc1038482,
+    type: 3}
+  m_PrefabInstance: {fileID: 1018152471558451884}
+  m_PrefabAsset: {fileID: 0}
